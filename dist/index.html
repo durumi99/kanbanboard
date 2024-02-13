@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>칸반 보드</title>
+</head>
+<body>
+<div id="kanban">
+    <header>칸반 보드</header>
+    <div class="main">
+        <section>
+            <article>
+                <button class="addBtn" id = "1" type="button">항목 추가</button>
+                <h2 id="to-do">To Do</h2>       
+                <ul class="to-do"></ul>
+            </article>
+            <article>
+                <button class="addBtn" id = "2" type="button">항목 추가</button>
+                <h2 id="in-progress">In Progress</h2>
+                <ul class="in-progress"></ul>
+            </article>
+            <article>
+                <button class="addBtn" id = "3" type="button">항목 추가</button>
+                <h2 id="done">Done</h2>
+                <ul class="done"></ul>
+            </article>
+        </section>
+    </div>
+</div>
+<div class="modal hidden">
+    <div class="modal-overlay hidden"></div>
+</div>
+<script src="bundle.js" type="module"></script>
+</body>
+</html>
